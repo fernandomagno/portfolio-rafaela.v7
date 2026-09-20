@@ -12,12 +12,15 @@
   <style>
     .cover-image img, .editorial-photo img { filter: none !important; }
     .watermark { display: none !important; }
+    .site-header { justify-content: center; }
+    .site-header nav { width: 100%; justify-content: center; gap: 32px; }
     .editorial-grid { grid-template-columns: repeat(4, 1fr); grid-template-rows: none; grid-auto-rows: 260px; grid-auto-flow: dense; }
     .editorial-photo { grid-column: auto; grid-row: auto; }
     .photo-a, .photo-b { grid-row: span 2; }
     .quote-card { grid-column: span 2; }
     @media (max-width: 800px) {
       .editorial-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: none; grid-auto-rows: 220px; }
+      .site-header nav { gap: 18px; }
       .editorial-photo, .photo-a, .photo-b, .photo-c, .photo-d, .photo-e, .photo-f, .photo-g, .photo-h, .photo-i, .photo-j, .photo-k, .photo-l, .photo-m, .photo-n, .photo-o, .photo-p, .photo-q, .photo-r, .photo-s, .photo-t { grid-column: auto; grid-row: auto; height: auto; }
       .quote-card { grid-column: span 2; grid-row: auto; }
     }
@@ -25,9 +28,7 @@
 </head>
 <body>
   <header class="site-header">
-    <a class="wordmark" href="#inicio" aria-label="Rafaela Benatti, início">RAFAELA <i>BENATTI</i></a>
     <nav aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#perfil">Perfil</a><a href="#editorial">Editorial</a><a href="#contato">Contato</a></nav>
-    <span class="issue">ISSUE 01 / 2026</span>
   </header>
 
   <main id="inicio">
@@ -60,12 +61,11 @@
         <button class="editorial-photo photo-j reveal" data-full="image00010.jpeg"><img src="image00010.jpeg" alt="Rafaela no desfile, foto 09" loading="lazy" decoding="async"><span>09 / MOMENTO</span></button>
         <button class="editorial-photo photo-k reveal" data-full="image00011.jpeg"><img src="image00011.jpeg" alt="Rafaela no desfile, foto 10" loading="lazy" decoding="async"><span>10 / LOOK</span></button>
         <button class="editorial-photo photo-l reveal" data-full="image00012.jpeg"><img src="image00012.jpeg" alt="Rafaela no desfile, foto 11" loading="lazy" decoding="async"><span>11 / PASSARELA</span></button>
-        <button class="editorial-photo photo-m reveal" data-full="image00013.jpeg"><img src="image00013.jpeg" alt="Rafaela no desfile, foto 12" loading="lazy" decoding="async"><span>12 / POSE</span></button>
-        <button class="editorial-photo photo-n reveal" data-full="image00014.jpeg"><img src="image00014.jpeg" alt="Rafaela no desfile, foto 13" loading="lazy" decoding="async"><span>13 / EXPRESSÃO</span></button>
-        <button class="editorial-photo photo-o reveal" data-full="image00015.jpeg"><img src="image00015.jpeg" alt="Rafaela no desfile, foto 14" loading="lazy" decoding="async"><span>14 / ENTRADA</span></button>
-        <button class="editorial-photo photo-p reveal" data-full="image00016.jpeg"><img src="image00016.jpeg" alt="Rafaela no desfile, foto 15" loading="lazy" decoding="async"><span>15 / LOOK</span></button>
-        <button class="editorial-photo photo-r reveal" data-full="image00018.jpeg"><img src="image00018.jpeg" alt="Rafaela no desfile, foto 16" loading="lazy" decoding="async"><span>16 / PASSARELA</span></button>
-        <button class="editorial-photo photo-s reveal" data-full="image00019.jpeg"><img src="image00019.jpeg" alt="Rafaela no desfile, foto 17" loading="lazy" decoding="async"><span>17 / POSE</span></button>
+        <button class="editorial-photo photo-n reveal" data-full="image00014.jpeg"><img src="image00014.jpeg" alt="Rafaela no desfile, foto 12" loading="lazy" decoding="async"><span>12 / EXPRESSÃO</span></button>
+        <button class="editorial-photo photo-o reveal" data-full="image00015.jpeg"><img src="image00015.jpeg" alt="Rafaela no desfile, foto 13" loading="lazy" decoding="async"><span>13 / ENTRADA</span></button>
+        <button class="editorial-photo photo-p reveal" data-full="image00016.jpeg"><img src="image00016.jpeg" alt="Rafaela no desfile, foto 14" loading="lazy" decoding="async"><span>14 / LOOK</span></button>
+        <button class="editorial-photo photo-r reveal" data-full="image00018.jpeg"><img src="image00018.jpeg" alt="Rafaela no desfile, foto 15" loading="lazy" decoding="async"><span>15 / PASSARELA</span></button>
+        <button class="editorial-photo photo-s reveal" data-full="image00019.jpeg"><img src="image00019.jpeg" alt="Rafaela no desfile, foto 16" loading="lazy" decoding="async"><span>16 / POSE</span></button>
       </div>
     </section>
 
