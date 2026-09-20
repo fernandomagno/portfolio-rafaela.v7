@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rafaela Benatti, portfólio editorial de modelo infantil.">
+  <title>Rafaela Benatti — Desfile Editorial</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .cover-image img, .editorial-photo img { filter: none !important; }
+    .watermark { display: none !important; }
+    .editorial-grid { grid-template-columns: repeat(4, 1fr); grid-template-rows: none; grid-auto-rows: 260px; grid-auto-flow: dense; }
+    .editorial-photo { grid-column: auto; grid-row: auto; }
+    .photo-a, .photo-b { grid-row: span 2; }
+    .quote-card { grid-column: span 2; }
+    @media (max-width: 800px) {
+      .editorial-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: none; grid-auto-rows: 220px; }
+      .editorial-photo, .photo-a, .photo-b, .photo-c, .photo-d, .photo-e, .photo-f, .photo-g, .photo-h, .photo-i, .photo-j, .photo-k, .photo-l, .photo-m, .photo-n, .photo-o, .photo-p, .photo-q, .photo-r, .photo-s, .photo-t { grid-column: auto; grid-row: auto; height: auto; }
+      .quote-card { grid-column: span 2; grid-row: auto; }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Rafaela Benatti, início">RAFAELA <i>BENATTI</i></a>
+    <nav aria-label="Navegação principal"><a href="#inicio">Início</a><a href="#perfil">Perfil</a><a href="#editorial">Editorial</a><a href="#contato">Contato</a></nav>
+    <span class="issue">ISSUE 01 / 2026</span>
+  </header>
+
+  <main id="inicio">
+    <section class="cover page-section">
+      <div class="cover-copy reveal"><p class="overline">PORTFÓLIO · DESFILE INFANTIL</p><h1>Rafaela<br><em>Benatti</em></h1><p class="cover-caption">Passarela, presença<br>e personalidade.</p><a class="circle-arrow" href="#editorial" aria-label="Ver editorial">↓</a></div>
+      <div class="cover-image reveal reveal-late"><span class="image-number"></span><img src="image00001.jpeg" alt="Rafaela em desfile editorial" width="3456" height="5184" fetchpriority="high" decoding="async"></div>
+      <div class="cover-side">SÃO PAULO<br>BRASIL<br><b>07 ANOS</b></div>
+    </section>
+
+    <section class="profile page-section" id="perfil">
+      <div class="section-tag reveal">01 / PERFIL</div>
+      <div class="profile-title reveal"><p>Uma presença<br><em>natural</em> diante<br>da câmera.</p></div>
+      <div class="profile-text reveal"><p>Rafaela é espontânea, comunicativa e adora se expressar através das fotos. Tem facilidade para seguir direção e se adapta a diferentes cenários, figurinos e personagens.</p><p class="muted">Disponível para castings, catálogos, campanhas e editoriais voltados ao público infantil.</p><a class="line-link" href="#contato">Conheça a ficha completa <span>↗</span></a></div>
+    </section>
+
+    <section class="stats page-section reveal"><div><span>IDADE</span><b>07</b><small>anos</small></div><div><span>ALTURA</span><b>1,24</b><small>metros</small></div><div><span>MANEQUIM</span><b>06</b><small>infantil</small></div><div><span>BASE</span><b>SP</b><small>Brasil</small></div></section>
+
+    <section class="editorial page-section" id="editorial">
+      <div class="editorial-head reveal"><div><div class="section-tag">02 / DESFILE</div><h2>O olhar<br>em <em>movimento.</em></h2></div><p>Uma seleção completa do desfile, com atitude, leveza e presença em cada entrada.</p></div>
+      <div class="editorial-grid">
+        <button class="editorial-photo photo-a reveal" data-full="image00001.jpeg"><img src="image00001.jpeg" alt="Rafaela no desfile, foto 01" width="3456" height="5184" loading="lazy" decoding="async"><span>01 / DESFILE</span></button>
+        <button class="editorial-photo photo-b reveal" data-full="image00002.jpeg"><img src="image00002.jpeg" alt="Rafaela no desfile, foto 02" loading="lazy" decoding="async"><span>02 / PASSARELA</span></button>
+        <div class="quote-card reveal"><p>“A câmera encontra<br>o que o sorriso<br>já sabia.”</p><span>— RAFAELA BENATTI</span></div>
+        <button class="editorial-photo photo-c reveal" data-full="image00003.jpeg"><img src="image00003.jpeg" alt="Rafaela no desfile, foto 03" loading="lazy" decoding="async"><span>03 / ENTRADA</span></button>
+        <button class="editorial-photo photo-d reveal" data-full="image00004.jpeg"><img src="image00004.jpeg" alt="Rafaela no desfile, foto 04" loading="lazy" decoding="async"><span>04 / POSE</span></button>
+        <button class="editorial-photo photo-e reveal" data-full="image00005.jpeg"><img src="image00005.jpeg" alt="Rafaela no desfile, foto 05" loading="lazy" decoding="async"><span>05 / MOMENTO</span></button>
+        <button class="editorial-photo photo-f reveal" data-full="image00006.jpeg"><img src="image00006.jpeg" alt="Rafaela no desfile, foto 06" loading="lazy" decoding="async"><span>06 / LOOK</span></button>
+        <button class="editorial-photo photo-g reveal" data-full="image00007.jpeg"><img src="image00007.jpeg" alt="Rafaela no desfile, foto 07" loading="lazy" decoding="async"><span>07 / PASSARELA</span></button>
+        <button class="editorial-photo photo-h reveal" data-full="image00008.jpeg"><img src="image00008.jpeg" alt="Rafaela no desfile, foto 08" loading="lazy" decoding="async"><span>08 / EXPRESSÃO</span></button>
+        <button class="editorial-photo photo-j reveal" data-full="image00010.jpeg"><img src="image00010.jpeg" alt="Rafaela no desfile, foto 09" loading="lazy" decoding="async"><span>09 / MOMENTO</span></button>
+        <button class="editorial-photo photo-k reveal" data-full="image00011.jpeg"><img src="image00011.jpeg" alt="Rafaela no desfile, foto 10" loading="lazy" decoding="async"><span>10 / LOOK</span></button>
+        <button class="editorial-photo photo-l reveal" data-full="image00012.jpeg"><img src="image00012.jpeg" alt="Rafaela no desfile, foto 11" loading="lazy" decoding="async"><span>11 / PASSARELA</span></button>
+        <button class="editorial-photo photo-m reveal" data-full="image00013.jpeg"><img src="image00013.jpeg" alt="Rafaela no desfile, foto 12" loading="lazy" decoding="async"><span>12 / POSE</span></button>
+        <button class="editorial-photo photo-n reveal" data-full="image00014.jpeg"><img src="image00014.jpeg" alt="Rafaela no desfile, foto 13" loading="lazy" decoding="async"><span>13 / EXPRESSÃO</span></button>
+        <button class="editorial-photo photo-o reveal" data-full="image00015.jpeg"><img src="image00015.jpeg" alt="Rafaela no desfile, foto 14" loading="lazy" decoding="async"><span>14 / ENTRADA</span></button>
+        <button class="editorial-photo photo-p reveal" data-full="image00016.jpeg"><img src="image00016.jpeg" alt="Rafaela no desfile, foto 15" loading="lazy" decoding="async"><span>15 / LOOK</span></button>
+        <button class="editorial-photo photo-r reveal" data-full="image00018.jpeg"><img src="image00018.jpeg" alt="Rafaela no desfile, foto 16" loading="lazy" decoding="async"><span>16 / PASSARELA</span></button>
+        <button class="editorial-photo photo-s reveal" data-full="image00019.jpeg"><img src="image00019.jpeg" alt="Rafaela no desfile, foto 17" loading="lazy" decoding="async"><span>17 / POSE</span></button>
+      </div>
+    </section>
+
+    <section class="contact page-section" id="contato"><div class="contact-inner reveal"><div><div class="section-tag">03 / CONTATO</div><h2>Vamos criar<br>algo <em>especial?</em></h2></div><div class="contact-copy"><p>Para propostas de trabalho, castings ou mais informações, entre em contato com a família da Rafaela.</p><a href="https://wa.me/5511996697287" target="_blank" rel="noopener" class="contact-link"><span>WHATSAPP</span><b>(11) 99669-7287</b><i>↗</i></a><a href="https://www.instagram.com/rafinhabenatti" target="_blank" rel="noopener" class="contact-link"><span>INSTAGRAM</span><b>@rafinhabenatti</b><i>↗</i></a></div></div></section>
+  </main>
+
+  <footer class="site-footer"><span>RAFAELA BENATTI</span><span>PORTFÓLIO EDITORIAL INFANTIL</span><span>SÃO PAULO · 2026</span></footer>
+  <div class="lightbox" aria-hidden="true" role="dialog" aria-label="Foto ampliada"><button class="lightbox-close" type="button" aria-label="Fechar foto">×</button><img src="" alt=""><p></p></div>
+  <script src="app.js"></script>
+</body>
+</html>
